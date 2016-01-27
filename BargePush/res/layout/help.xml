@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:id="@+id/scrollViewHelp"
+	android:layout_height="fill_parent">
+	<LinearLayout android:orientation="vertical"
+		android:layout_width="match_parent" android:layout_height="match_parent"
+		android:scrollbars="vertical" android:background="#ffffff">
+		<TextView android:text="Barge Application Help!" android:id="@+id/textView1"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:gravity="center" android:textSize="25dp" android:textColor="#7F5217"></TextView>
+		<TextView android:text="About the app" android:id="@+id/textView2"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:textSize="17dp" android:textColor="#7E2217"
+			android:layout_margin="7dp"></TextView>
+		<TextView android:text="@string/getting_started" android:id="@+id/textView3"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:textColor="#000000"></TextView>
+
+		<TextView android:text="Viewing barges" android:id="@+id/textView4"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:textSize="17dp" android:textColor="#7E2217"
+			android:layout_margin="7dp"></TextView>
+		<TextView android:text="@string/view_barges" android:id="@+id/textView5"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:textColor="#000000"></TextView>
+
+		<TextView android:text="Notifications inbox" android:id="@+id/textView6"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:textSize="17dp" android:textColor="#7E2217"
+			android:layout_margin="7dp"></TextView>
+		<TextView android:text="@string/notifications_barges"
+			android:id="@+id/textView7" android:layout_width="match_parent"
+			android:layout_height="wrap_content" android:textColor="#000000"
+			android:paddingBottom="20dp"></TextView>
+
+
+
+	</LinearLayout>
+</ScrollView>

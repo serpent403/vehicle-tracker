@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:weightSum="1">
+	<!-- <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" 
+		android:id="@+id/linearLayout1" android:gravity="center" android:background="#302217"> 
+		<Button android:id="@+id/notifall" android:layout_width="60dp" android:layout_height="60dp" 
+		android:text="" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" 
+		android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:background="@drawable/lv_all_click"></Button> 
+		<Button android:id="@+id/notiftroubled" android:layout_width="60dp" android:layout_height="60dp" 
+		android:text="" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" 
+		android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:background="@drawable/lv_troubled_click"></Button> 
+		<Button android:id="@+id/notifparticular" android:layout_width="60dp" android:layout_height="60dp" 
+		android:text="" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" 
+		android:layout_marginTop="5dp" android:layout_marginBottom="5dp" android:background="@drawable/lv_select_click"></Button> 
+		</LinearLayout> -->
+
+	<TextView android:id="@+id/lv_textView" android:layout_height="40dp"
+		android:layout_width="fill_parent" android:text="Notifications Inbox"
+		android:background="#ffffff" android:gravity="center" android:textColor="#000000" />
+
+
+	<ListView android:id="@+id/listView1" android:layout_height="wrap_content"
+		android:layout_width="fill_parent" android:dividerHeight="1px"
+		android:divider="#800517"></ListView>
+</LinearLayout>
+
+
+

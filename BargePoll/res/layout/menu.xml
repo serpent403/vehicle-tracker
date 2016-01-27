@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:weightSum="1">
+	<Button android:text="Query All" android:id="@+id/queryall"
+		android:layout_width="fill_parent" android:layout_height="wrap_content"></Button>
+	<!-- Header -->
+	<LinearLayout android:id="@+id/header"
+		android:layout_height="wrap_content"
+		android:layout_width="fill_parent"
+		>
+		<TextView android:id="@+id/head1"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+			android:text="id"
+			android:width="20dip"
+			android:height="30dip"
+		/>
+		<TextView android:id="@+id/head2"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+			android:text="name"
+			android:width="100dip"
+			android:height="30dip"
+		/>
+		<TextView android:id="@+id/head3"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+			android:text="lng"
+			android:width="100dip"
+			android:height="30dip"
+		/>
+		<TextView android:id="@+id/head4"
+			android:layout_height="fill_parent"
+			android:layout_width="wrap_content"
+			android:text="lat"
+			android:width="100dip"
+			android:height="30dip"
+		/>
+	</LinearLayout>
+
+		
+		<ListView android:id="@+id/listview"
+			android:layout_height="match_parent"
+			android:layout_width="match_parent">
+		</ListView>
+	
+
+</LinearLayout>

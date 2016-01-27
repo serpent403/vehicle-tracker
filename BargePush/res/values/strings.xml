@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="hello">Hello World, SplashScreen!</string>
+	<string name="app_name">BARGE APP</string>
+	<string name="brg1">BARGE 1</string>
+	<string name="brg2">BARGE 2</string>
+	<string name="brg3">BARGE 3</string>
+	<string name="brg4">BARGE 4</string>
+	<string name="brg5">BARGE 5</string>
+	<string name="brg6">BARGE 6</string>
+	<string name="done">Done</string>
+	<string name="all">ALL BARGES</string>
+	<string name="troubled">TROUBLED BARGES</string>
+	<string name="particular">SELECT BARGES</string>
+	<string name="call">Call</string>
+	<string name="sendmessage">Send Message</string>
+	<string name="initno"></string>
+	<string name="instr_for_no">enter the last 10 digits of the no. only</string>
+	<string name="ok">OK</string>
+	<string name="yes">YES</string>
+	<string name="no">NO</string>
+	<string name="getting_started">
+		This application helps the barge owner to keep
+		track of all the barges.
+		The two main features of this application are
+		the map view and the
+		push notifications. The map view provides the
+		current coordinates of
+		the barges and the push notifications regularly
+		updates the barge
+		owner about the status of every barge.
+
+	</string>
+	<string name="view_barges">
+		To view the current locations of the barges, the
+		ship icon on the
+		options screen must be clicked.
+		On click the
+		application takes the user to another screen with a map
+		view and
+		overlays of all the barges
+		plotted on it. To improve the user
+		experience three filter options have been
+		provided in the menu options
+		in the
+		form of icons. The first icon shows all the barges on the map,
+		the second
+		icon shows only the troubled barges on the map
+		and the third
+		icon requests the user to check the barges he wants to be
+		shown on the
+		map.The fun does not end here! The user can click on any of the barge
+		overlays too see relevant information
+		regarding the barge and can also
+		call or message the barge driver for any enquiry.
+
+	</string>
+	<string name="notifications_barges">
+		The application has an inbox to store all push the
+		notifications the user has received from the server. The
+		inbox is a simple list view of all the notifications sorted in
+		chronological order with the latest notification
+		at the top. Each notification contains the status information of a barge
+		and long clicking on it takes the user
+		to a map view with the overlay of the barge whose notification was
+		clicked. To improve the user experience three
+		filter options have been provided in the menu options in the form of icons.
+		The first icon shows the notifications
+		of all the barges, the second icon shows the notifications of only the
+		troubled barges and the third notification
+		requests the user to check the barges whose notifications he wants to be
+		shown.
+
+
+	</string>
+
+</resources>

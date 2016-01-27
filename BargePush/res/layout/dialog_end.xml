@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/layout_root" android:layout_width="fill_parent"
+	android:layout_height="fill_parent" android:padding="20dp"
+	android:orientation="vertical" android:gravity="center">
+	<ImageView android:id="@+id/image" android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:layout_marginRight="10dp" />
+	<TextView android:layout_width="wrap_content"
+		android:layout_height="fill_parent" android:textColor="#FFF"
+		android:id="@+id/text_end" android:layout_margin="5dp" />
+	<LinearLayout android:layout_width="match_parent"
+		android:layout_height="wrap_content" android:id="@+id/linearLayout1"
+		android:gravity="center">
+		<Button android:id="@+id/yes" android:text="@string/yes"
+			android:layout_width="60dp" android:layout_height="40dp"></Button>
+		<Button android:id="@+id/no" android:text="@string/no"
+			android:layout_width="60dp" android:layout_height="40dp"></Button>
+	</LinearLayout>
+</LinearLayout>

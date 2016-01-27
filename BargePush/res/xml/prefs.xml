@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<CheckBoxPreference android:key="notifications"
+		android:title="Notifications" android:summary="Get notifications at the status bar"
+		android:defaultValue="true" />
+
+
+	<PreferenceScreen android:key="barge_updates"
+		android:title="Barge Updates" android:summary="Click to get updates from selected barges">
+
+		<!-- You can place more preferences here that will be shown on the next 
+			screen. -->
+		<CheckBoxPreference android:key="barge_1"
+			android:title="Barge_1" android:summary="Get updates from Barge_1"
+			android:defaultValue="true" />
+		<CheckBoxPreference android:key="barge_2"
+			android:title="Barge_2" android:summary="Get updates from Barge_2"
+			android:defaultValue="true" />
+		<CheckBoxPreference android:key="barge_3"
+			android:title="Barge_3" android:summary="Get updates from Barge_3"
+			android:defaultValue="true" />
+		<CheckBoxPreference android:key="barge_4"
+			android:title="Barge_4" android:summary="Get updates from Barge_4"
+			android:defaultValue="true" />
+		<CheckBoxPreference android:key="barge_5"
+			android:title="Barge_5" android:summary="Get updates from Barge_5"
+			android:defaultValue="true" />
+		<CheckBoxPreference android:key="barge_6"
+			android:title="Barge_6" android:summary="Get updates from Barge_6"
+			android:defaultValue="true" />
+
+	</PreferenceScreen>
+
+	<PreferenceScreen android:key="barge_phone_numbers"
+		android:title="Barge Phone Numbers" android:summary="Enter the phone numbers of barges">
+		<EditTextPreference android:key="barge_1_num" android:title="Barge_1 Contact"
+			android:summary="Phone number of Barge_1 driver" android:dialogTitle="Enter Phone No." android:defaultValue="0"/>
+
+		<EditTextPreference android:defaultValue="0"
+			android:key="barge_2_num" android:title="Barge_2 Contact"
+			android:summary="Phone number of Barge_2 driver" android:dialogTitle="Enter Phone No." />
+
+		<EditTextPreference android:defaultValue="0"
+			android:key="barge_3_num" android:title="Barge_3 Contact"
+			android:summary="Phone number of Barge_3 driver" android:dialogTitle="Enter Phone No." />
+
+		<EditTextPreference android:defaultValue="0"
+			android:key="barge_4_num" android:title="Barge_4 Contact"
+			android:summary="Phone number of Barge_4 driver" android:dialogTitle="Enter Phone No." />
+
+		<EditTextPreference android:defaultValue="0"
+			android:key="barge_5_num" android:title="Barge_5 Contact"
+			android:summary="Phone number of Barge_5 driver" android:dialogTitle="Enter Phone No." />
+
+		<EditTextPreference android:defaultValue="0"
+			android:key="barge_6_num" android:title="Barge_6 Contact"
+			android:summary="Phone number of Barge_6 driver" android:dialogTitle="Enter Phone No." />
+
+	</PreferenceScreen>
+
+
+
+</PreferenceScreen>

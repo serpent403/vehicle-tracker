@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical" android:gravity="center"
+	android:paddingLeft="20dp" android:paddingRight="20dp">
+	<ScrollView android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:id="@+id/scrollView1">
+		<LinearLayout android:id="@+id/linearLayout1"
+			android:orientation="vertical"
+			android:gravity="center" android:layout_width="199dp" android:layout_height="374dp">
+			<CheckBox android:layout_width="wrap_content" android:id="@+id/checkBox1"
+				android:gravity="center" android:layout_height="wrap_content"
+				android:text="@string/brg1"></CheckBox>
+			<CheckBox android:layout_width="wrap_content" android:id="@+id/checkBox2"
+				android:layout_height="wrap_content" android:text="@string/brg2"></CheckBox>
+			<CheckBox android:layout_width="wrap_content" android:id="@+id/checkBox3"
+				android:layout_height="wrap_content" android:text="@string/brg3"></CheckBox>
+			<CheckBox android:layout_width="wrap_content" android:id="@+id/checkBox4"
+				android:layout_height="wrap_content" android:text="@string/brg4"></CheckBox>
+			<CheckBox android:layout_width="wrap_content" android:id="@+id/checkBox5"
+				android:layout_height="wrap_content" android:text="@string/brg5"></CheckBox>
+			<CheckBox android:layout_width="wrap_content" android:id="@+id/checkBox6"
+				android:layout_height="wrap_content" android:text="@string/brg6"></CheckBox>
+			<Button android:layout_width="wrap_content" android:text="@string/done"
+				android:layout_height="wrap_content" android:id="@+id/button1" android:layout_margin="20dp"></Button>
+		</LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

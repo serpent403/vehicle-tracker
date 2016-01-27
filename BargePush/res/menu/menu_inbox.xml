@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<item android:id="@+id/all_inbox" android:icon="@drawable/lv_all_click" />
+
+	<item android:id="@+id/trb_inbox" android:icon="@drawable/lv_troubled_click" />
+
+	<item android:id="@+id/select_inbox" android:icon="@drawable/lv_select_click" />
+	
+	<item android:id="@+id/erase_inbox" android:icon="@drawable/erase_click" />
+
+</menu>

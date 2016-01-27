@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:orientation="vertical"  >
+	<ScrollView android:layout_width="wrap_content" android:id="@+id/scrollView1"
+		android:layout_height="wrap_content" android:layout_centerHorizontal="true">
+		<LinearLayout android:layout_width="match_parent"
+			android:id="@+id/linearLayout1" android:orientation="vertical"
+			android:layout_height="wrap_content" android:gravity="center">
+			<TextView android:id="@+id/textView3" android:layout_height="wrap_content"
+				android:layout_width="wrap_content" android:text="TextView"></TextView>
+		</LinearLayout>
+	</ScrollView>
+
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="match_parent" android:layout_height="wrap_content"
+		android:orientation="horizontal" android:layout_alignParentBottom="true"
+		android:paddingLeft="20dp" android:paddingRight="20dp"
+		android:paddingTop="20dp" android:paddingBottom="20dp">
+		<Button android:id="@+id/message" android:layout_height="80dp"
+			android:text="" android:layout_width="70dp"
+			android:layout_alignParentLeft="true"
+			android:background="@drawable/barge_msg_click" android:layout_alignTop="@+id/call"></Button>
+		<Button android:id="@+id/call" android:layout_height="70dp"
+			android:text="" android:layout_width="70dp"
+			android:layout_alignParentRight="true"
+			android:background="@drawable/barge_call_click" ></Button>
+	</RelativeLayout>
+
+</RelativeLayout>
